@@ -3,7 +3,7 @@
 <a href="https://vaidikkamde.github.io/Terribly-Tiny-Tales-String-Compressor-Assignment/" target="_blank">Demo Link</a>
 ### About The Project
 
-This project is an implementation of a string shortner or compressor which takes a string as an input and encodes the string and compressing it and returnig the compressed string as an output. This project also contains a decoder whic takes the compressed string as an input and returns the original string as an output.
+This project is an implementation of a string shortner or compressor which takes a string as an input and encodes the string and compressing it and returnig the compressed string as an output. This project also contains a decoder which takes the compressed string as an input and returns the original string as an output.
 
 #### LZW (Lempel–Ziv–Welch) Compression technique
 
