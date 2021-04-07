@@ -21,8 +21,8 @@ Here we are using the ASCII code as the code table which typically contains 8 bi
 ##### Compression
 
 The idea of the compression algorithm is the following: as the input data is being processed, a dictionary keeps a correspondence between the longest encountered words and a list of code values. The words are replaced by their corresponding codes and so the input file is compressed. Therefore, the efficiency of the algorithm increases as the number of long, repetitive words in the input data increases.
-
-<code>PSEUDOCODE
+```
+PSEUDOCODE
 1 Initialize table with single character strings
 2 P = first input character
 3 WHILE not end of input stream
@@ -35,14 +35,16 @@ The idea of the compression algorithm is the following: as the input data is bei
 10 P = C
 11 END WHILE
 12 Fetch code for P and Convert it to ASCII using the dictonary.
-13 output code for P and ASCII </code>
+13 output code for P and ASCII
+```
 </br>
 
 ##### Decompression
 
 The LZW decompressor creates the same string table during decompression. It starts with the first 256 table entries initialized to single characters. The string table is updated for each character in the input stream, except the first one.Decoding achieved by reading codes and translating them through the code table being built.
 
-<code>PSEUDOCODE
+```
+PSEUDOCODE
 1 Initialize table with single character strings
 2 OLD = first input code
 3 output translation of OLD
@@ -57,7 +59,8 @@ The LZW decompressor creates the same string table during decompression. It star
 12 C = first character of S
 13 OLD + C to the string table
 14 OLD = NEW
-15 END WHILE</code>
+15 END WHILE
+```
 </br>
 
 #### Advantages Of LZW
