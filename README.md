@@ -1,6 +1,6 @@
 ## Terribly Tiny Tales - String Compressor Assignment
 
-[Demo Link]()
+[Demo Link](https://vaidikkamde.github.io/Terribly-Tiny-Tales-String-Compressor-Assignment/)
 
 ### About The Project
 
